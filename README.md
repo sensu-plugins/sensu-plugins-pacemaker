@@ -5,7 +5,6 @@
 [![Code Climate](https://codeclimate.com/github/sensu-plugins/sensu-plugins-pacemaker/badges/gpa.svg)](https://codeclimate.com/github/sensu-plugins/sensu-plugins-pacemaker)
 [![Test Coverage](https://codeclimate.com/github/sensu-plugins/sensu-plugins-pacemaker/badges/coverage.svg)](https://codeclimate.com/github/sensu-plugins/sensu-plugins-pacemaker)
 [![Dependency Status](https://gemnasium.com/sensu-plugins/sensu-plugins-pacemaker.svg)](https://gemnasium.com/sensu-plugins/sensu-plugins-pacemaker)
-[ ![Codeship Status for sensu-plugins/sensu-plugins-pacemaker](https://codeship.com/projects/3769ae80-e949-0132-e56d-26b28b7b5489/status?branch=master)](https://codeship.com/projects/82929)
 
 ## Functionality
 

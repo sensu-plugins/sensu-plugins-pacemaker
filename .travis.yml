@@ -16,13 +16,15 @@ notifications:
     on_failure: always
 script:
 - bundle exec rake default
+- gem build sensu-plugins-pacemaker.gemspec
+- gem install sensu-plugins-pacemaker-*.gem
 deploy:
   provider: rubygems
   api_key:
-    secure: np31SPeazh7ZJlKt7rTFjWm3esNRd48LDvgsdbD1E4NKfuKdaJMXzkIizV765HrotaN7uniwznztKHDgdHkwAfV3dV/wMurnj6vKPk7T/LdMbQUt0ikJleRm2qGCZB+dTKMKA5rszxEwB9HGfKjWe07VemI2rOZKpcs6jaT9ijI=
+    secure: QW6Lcv2Qe01ixg32gvHGtq52kt+6ihNiGVQbtoNC42O+x9HH0eVyluqJn7YSi4xi6AbGm9Og4mfD9vXscxGhWaDC+LMTWrFSjSwhHa2NEcqOgmmljhD01Id/glFK8F7ZwbaCXt7MaJy1BwHVauLeahbhDUh9IGzrdfQGBYyqNzQ=
   gem: sensu-plugins-pacemaker
   on:
-    tags: true
+    ags: true
     all_branches: true
     rvm: 1.9.3
     rvm: 2.0
